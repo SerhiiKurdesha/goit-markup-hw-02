@@ -1,7 +1,8 @@
 body {
     background-color: #fff;   
 }
-/* Важный заголовок которого нет */
+/* Важный заголовок которого нет h1, h2 */
+
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
