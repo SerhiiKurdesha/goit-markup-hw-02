@@ -1,7 +1,7 @@
 :root {
  --primary-text-color: #757575;
  --title-text-color: #212121;
- --accent-color: #2196F3; 
+ --accent-color: #2196f3;
 }
 
 body {
@@ -42,6 +42,12 @@ span {
     color: #fff;
 }
 
+/* убирает подчеркивание */
+
+a {
+    text-decoration: none;
+}
+
 /* Белый #FFFFFF */
 
 .section-titles {
@@ -69,7 +75,7 @@ span {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav .link.current {
@@ -106,7 +112,7 @@ span {
     color: #fff;
     background-color: #2196F3;
     font-style: normal;
-    font-weight: 136px;
+    font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
     border-radius: 4px;
@@ -151,6 +157,10 @@ span {
 .title:hover,
 .title:focus {
     color: #2196F3;
+}
+
+/* header styles */
+
 }
 
         
