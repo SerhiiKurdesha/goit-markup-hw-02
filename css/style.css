@@ -19,6 +19,11 @@ body ul {
 .header {
     background: var(--header-color);
 }
+.header a {
+    font-weight: 500px;
+    color: var(--title-text-color);
+}
+
 .site-nav a {
     text-decoration: none;
 }
@@ -39,6 +44,98 @@ body ul {
     text-decoration: none;
 }
 
+/* section-one */
+.section-one {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: var(--footer-color-line);
+}
+
+/* section-two */
+.section-two h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+/* section-portfolio */
+.section-portfolio {
+    background: #E5E5E5;
+}
+.section-portfolio h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+
+    color: var(--title-text-color);
+}
+.section-portfolio p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+
+    color: var(--primary-text-color);
+}
+
+/* hero */
+.hero {
+    font-weight: 900px;
+    font-size: 44px;
+    line-height: 1.36;
+
+    color: var(--header-color);
+}
+
+/* button */
+.button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #F5F4FA;
+    border-radius: 4px; 
+    color: var(--title-text-color);
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+
+    align-items: center;
+    text-align: center;
+}
+
+/* заказать услугу */
+.section-one .button:hover,
+.section-one .button:focus {
+    background: var(--accent-color);
+    color: var(--header-color);
+}
+
+/* Rectangle 10 */
+.button-list {
+    font-style: normal;
+    height: 38px;
+    left: 976px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+}
+.section-portfolio .button-list:hover,
+.section-portfolio .button-list:focus {
+    background: var(--accent-color);
+    color: var(--header-color);
+}
+
+
 /* Special content */
 .visually-hidden {
     position: absolute;
@@ -46,6 +143,25 @@ body ul {
     width: 1px;
     height: 1px;
     margin: -1px; 
+}
+
+/* section-four */
+.section-four {
+    background: #F5F4FA;
+}
+.section-four h3 {
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.18;
+
+    color: var(--title-text-color);
+}
+.section-four p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+
+    color: var(--primary-text-color);
 }
 
 /* footer */
@@ -63,6 +179,9 @@ body ul {
 .contacts-down a:hover,
 .contacts-down a:focus {
     color: var(--accent-color);
+}
+.contacts-down p {
+    color: #ffffff;
 }
 
 
