@@ -1,0 +1,28 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196f3;
+--header-color: #fff;
+}
+
+/* header */
+.header {
+    background: var(--header-color);
+}
+.site-nav a:hover,
+.site-nav a:focus,
+.contacts-up a:hover,
+.contacts-up a:focus {
+    color: var(--accent-color);
+}
+.site-nav .link:active {
+    color: #7fff00;
+}
+.site-nav .link.current {
+    color: #ff8c00;
+}
+.contacts-up a {
+    color: var(--primary-text-color);
+} 
+
+
