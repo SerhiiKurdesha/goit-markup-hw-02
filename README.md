@@ -164,3 +164,18 @@ body {
     color: #2196F3;
 }
 
+ width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    border-radius: 4px;
+    cursor: pointer; 
+    color: #ffffff;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+
+    align-items: center;
+    text-align: center;
