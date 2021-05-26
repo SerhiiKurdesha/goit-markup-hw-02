@@ -7,13 +7,14 @@
 --footer-color-line: #2F303A;
 }
 
-body ul {
-    font-style: 700px;
+body {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
     list-style: none;
     color: #757575;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' 400, 500, 700;
     text-decoration: none;
-    color: var(--title-text-color); 
 }
 
 /* header */
@@ -21,9 +22,9 @@ body ul {
     background: var(--header-color);
 }
 
-.site-nav .link{
+.site-nav .link {
     font-family: Roboto;
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -46,7 +47,7 @@ body ul {
 }
 .contacts-up {
     font-family: Roboto;
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -76,15 +77,13 @@ body ul {
 /* section-two */
 .title {
     font-weight: bold;
-    font-size: 14px;
+    
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
 .description {
-    font-weight: normal;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 00.03em;
     color: var(--primary-text-color);
@@ -92,7 +91,7 @@ body ul {
 
 /* section-portfolio */
 .section-portfolio {
-    background: #E5E5E5;
+    background: #e6e6e6;
 }
 .depiction {
     font-weight: bold;
@@ -102,8 +101,7 @@ body ul {
     color: var(--title-text-color);
 }
 .value {
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 00.03em;
@@ -112,8 +110,8 @@ body ul {
 
 /* hero */
 .hero {
-    font-family: Roboto;
-    font-style: normal;
+    font-family: 'Roboto';
+
     font-weight: 900px;
     font-size: 44px;
     line-height: 1.36;
@@ -125,27 +123,28 @@ body ul {
 
 /* button */
 .button {
-   font-family: Roboto;
-   font-style: normal;
+   border: 1px solid transparent;
+   
    font-weight: bold;
    font-size: 16px;
    line-height: 1.87;
    cursor: pointer;
-   display: flex;
+   
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
+
    color: #ffffff;
-   }
-.button {
+/* заказать услугу */
     width: 200px;
     height: 50px;
     left: 700px;
     top: 430px;
-
-    background: #2196F3;
-    box-shadow: rgba(0, 0, 0, 0.15);
+    
+    background: #2196f3;
+    box-shadow: 0 4px 4px hsla(0, 0%, 0%, 0.149);
     border-radius: 4px;
+    
 }
 
 /* заказать услугу */
@@ -157,18 +156,21 @@ body ul {
 
 /* Rectangle 10 */
 .button-list {
-    font-style: normal;
-    height: 38px;
-    left: 976px;
-    border-radius: 4px;
-    cursor: pointer;
-    background-color: #F5F4FA;
-
-    font-weight: bold;
+    border: 1px solid transparent;
+    
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
 
     text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color);
+    height: 38px;
+    top: 174px;
+
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 .button-list:hover,
 .button-list:focus {
@@ -210,7 +212,7 @@ body ul {
     color: var(--title-text-color);
 }
 .position {
-    font-weight: normal;
+    
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -221,8 +223,7 @@ body ul {
 
 /* footer */
 .contacts-down .list {
-    font-style: normal;
-    font-weight: normal;
+
     text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
