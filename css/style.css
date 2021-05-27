@@ -8,28 +8,32 @@
 }
 
 body {
-    font-weight: normal;
-    font-style: normal;
+    font-family: Roboto 400, 500, 700;
     font-size: 14px;
     list-style: none;
     color: #757575;
-    font-family: 'Roboto' 400, 500, 700;
+    
+}
+ul {
+ list-style: none;   
+}
+a {
     text-decoration: none;
 }
 
 /* header */
-.header {
+.page-header {
     background: var(--header-color);
 }
 
 .site-nav .link {
     font-family: Roboto;
-    
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    
     color: var(--title-text-color);
 }
 
@@ -45,23 +49,14 @@ body {
 .link.current {
     color: #ff8c00;
 }
-.contacts-up {
-    font-family: Roboto;
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
 
-    color: var(--primary-text-color);
-}
 .list {
-    font-style: normal;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 00.02em;
-    text-decoration: none;
+    
     color: var(--primary-text-color);
 }
 
@@ -76,16 +71,19 @@ body {
 
 /* section-two */
 .title {
+    font-family: roboto;
     font-weight: bold;
-    
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
 .description {
+    font-family: roboto;
+    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 00.03em;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
@@ -101,7 +99,7 @@ body {
     color: var(--title-text-color);
 }
 .value {
-    
+    font-family: roboto;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 00.03em;
@@ -110,19 +108,19 @@ body {
 
 /* hero */
 .hero {
-    font-family: 'Roboto';
+    font-family: Roboto;
 
     font-weight: 900px;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 00.06em;
+    letter-spacing: 0.06em;
     
     color: var(--header-color);
 }
 
 /* button */
-.button {
+.button-hero {
    border: 1px solid transparent;
    
    font-weight: bold;
@@ -148,8 +146,8 @@ body {
 }
 
 /* заказать услугу */
-.button:hover,
-.button:focus {
+.button-hero:hover,
+.button-hero:focus {
     background: #F5F4FA;
     color: var(--title-text-color);
 }
@@ -189,7 +187,8 @@ body {
 }
 
 /* чем мы занимаемся & наша команда */
-.work {
+.work-team {
+    font-family: roboto;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -203,6 +202,7 @@ body {
     background: #F5F4FA;
 }
 .name {
+    font-family: roboto;
     font-weight: 500px;
     font-size: 16px;
     line-height: 1.18;
@@ -212,7 +212,7 @@ body {
     color: var(--title-text-color);
 }
 .position {
-    
+    font-family: roboto;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -224,7 +224,7 @@ body {
 /* footer */
 .contacts-down .list {
 
-    text-decoration: none;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 00.03em;
@@ -239,10 +239,10 @@ body {
 }
 .address {
     font-style: normal;
-    font-weight: normal;
+    font-family: Roboto;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 00.03em;
+    letter-spacing: 0.03em;
     color: var(--header-color);
 }
 
